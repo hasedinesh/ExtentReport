@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test OrangeHRM(failed)">
+    <parameter name="author" value="Aarti"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.extent.report.TestClass">
+        <methods>
+          <include name="initialiseExtentReports"/>
+          <include name="TestOrangeHRM"/>
+          <include name="setup"/>
+          <include name="checkStatus"/>
+          <include name="generateExtentReports"/>
+        </methods>
+      </class> <!-- com.extent.report.TestClass -->
+    </classes>
+  </test> <!-- Test OrangeHRM(failed) -->
+</suite> <!-- Failed suite [Suite] -->
